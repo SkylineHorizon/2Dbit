@@ -45,3 +45,27 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Unity .gitignore file.
+.DS_Store
+Library
+Library/*
+*.csproj
+*.sln
+*.userprefs
+Temp
+*.pidb
+Build
+
+.vscode
+Assets/VSCode
+Assets/VSCode.meta
+
+#Assets/Plugins/*
+Assets/Photon Unity Networking/Demos
+Assets/Photon Unity Networking/Demos/*
+
+Assets/Plugins/VSCode
+Assets/Plugins/VSCode.meta
+
+ProjectSettings/ProjectVersion.txt
